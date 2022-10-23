@@ -271,7 +271,7 @@ y_test <span style="color:#808030; ">=</span> y_test<span style="color:#808030; 
 * There 10 classes:
   * Each training and test example is assigned to one of the following labels:
 
-<img width="500" src="images/CIFAR10 -10-classes-labels.PNG">
+<img width="100" src="images/CIFAR10 -10-classes-labels.PNG">
 
 ###### 4.2.2.3.1. Display the number of classes:
 
@@ -288,8 +288,6 @@ The number of classes <span style="color:#800000; font-weight:bold; ">in</span> 
 </pre>
 
 ###### 4.2.2.3.2. Create meaningful labels for the different classes:
-
-
 
 <pre style="color:#000000;background:#e6ffff;font-size:10px;line-height:1.5;"><span style="color:#696969; "># the labels mapping</span>
 labels <span style="color:#808030; ">=</span> <span style="color:#696969; ">'''airplane</span>
@@ -734,7 +732,7 @@ plt<span style="color:#808030; ">.</span>xlabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Loss'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/loss-before-augmentation.png">
+<img width="500" src="images/loss-function-before-augmentation.png">
 
 #### 4.6.3. Accuracy:
 
@@ -983,7 +981,7 @@ plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>title<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Accuracy as a Function of the Iteration Number'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/accuracy-function-after-augmentation.png">
+<img width="500" src="images/accuracy-after-augmentation.png">
 
 #### 4.8.3. Compute the test-data Accuracy:
 
