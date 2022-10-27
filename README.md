@@ -1,6 +1,6 @@
-# CIFAR-10 Classification using Convolutional Neural Networks (CNN)
+# CIFAR-10 Classification using Convolutional Neural Networks (CNN) ijn Python
 
-<img width="500" src="images/banner.png">
+<img width="500" src="images/banner.png" width = "1000">
 
 ## 1. Objective
 
@@ -39,7 +39,7 @@ A high-level description of the CIFAR-10 dataset is as follows:
   * There are significant variations as well as similarities between different examples of the same class.
   * Additional information about the CIFAR-10 dataset can be found in [1].
   
-  <img width="500" src="images/CIFAR-10-sample-images.png">
+  <img width="500" src="images/CIFAR-10-sample-images.png" width = "1000">
   
 ## 4. Development
 
@@ -271,7 +271,7 @@ y_test <span style="color:#808030; ">=</span> y_test<span style="color:#808030; 
 * There 10 classes:
   * Each training and test example is assigned to one of the following labels:
 
-<img width="100" src="images/CIFAR10 -10-classes-labels.PNG">
+<img width="100" src="images/CIFAR10 -10-classes-labels.PNG" width = "1000">
 
 ###### 4.2.2.3.1. Display the number of classes:
 
@@ -357,7 +357,7 @@ plt<span style="color:#808030; ">.</span>legend<span style="color:#808030; ">(</
 <span style="color:#808030; ">]</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/CIFAR10-10-classes-examples-distribution.png">
+<img width="500" src="images/CIFAR10-10-classes-examples-distribution.png" width = "1000">
 
 ##### 4.2.2.5. Visualize some of the training and test images and their associated targets:
 
@@ -424,7 +424,7 @@ plt<span style="color:#808030; ">.</span>legend<span style="color:#808030; ">(</
 
 ##### 4.2.2.5.1. Visualize some of the training images and their associated targets:
 
-<img width="500" src="images/CIFAR10-25-train-images.png">
+<img width="500" src="images/CIFAR10-25-train-images.png" width = "1000">
 
 ##### 4.2.2.5.2. Visualize some of the test images and their associated targets:
 
@@ -433,7 +433,7 @@ plt<span style="color:#808030; ">.</span>legend<span style="color:#808030; ">(</
 visualize_images_and_labels<span style="color:#808030; ">(</span>num_visualized_images<span style="color:#808030; ">,</span> <span style="color:#008c00; ">1</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img width="500" src="images/CIFAR10-25-test-images.png">
+<img width="500" src="images/CIFAR10-25-test-images.png" width = "1000">
 
 #### 4.2.3. Normalize the training and test images to the interval: [0, 1]:
 
@@ -732,7 +732,7 @@ plt<span style="color:#808030; ">.</span>xlabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Loss'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/loss-function-before-augmentation.png">
+<img width="500" src="images/loss-function-before-augmentation.png" width = "1000">
 
 #### 4.6.3. Accuracy:
 
@@ -746,7 +746,7 @@ plt<span style="color:#808030; ">.</span>xlabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Accuracy'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/accuracy-before-augmentation.png">
+<img width="500" src="images/accuracy-before-augmentation.png" width = "1000">
 
 
 #### 4.6.3. Compute the test-data Accuracy:
@@ -826,7 +826,7 @@ plot_confusion_matrix<span style="color:#808030; ">(</span>cm<span style="color:
 </pre>
 
 
-<img width="500" src="images/confusion-matrix-before-augmentation.png">
+<img width="500" src="images/confusion-matrix-before-augmentation.png" width = "1000">
 
 #### 4.6.5) Examine some of the misclassified digits:
 
@@ -865,7 +865,7 @@ seed<span style="color:#808030; ">(</span>random_state_seed<span style="color:#8
 </pre>
 
 
-<img width="500" src="images/25-misclassifications-before-augmentation.png">
+<img width="500" src="images/25-misclassifications-before-augmentation.png" width = "1000">
 
 ### 4.7. Part 7: Try to improve the model performance using data augmentation:
 
@@ -965,7 +965,7 @@ plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>title<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Loss as a Function of the Iteration Number'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/loss-function-after-augmentation.png">
+<img width="500" src="images/loss-function-after-augmentation.png" width = "1000">
 
 
 #### 4.8.2. Accuracy:
@@ -981,7 +981,7 @@ plt<span style="color:#808030; ">.</span>ylabel<span style="color:#808030; ">(</
 plt<span style="color:#808030; ">.</span>title<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Accuracy as a Function of the Iteration Number'</span><span style="color:#808030; ">)</span><span style="color:#808030; ">;</span>
 </pre>
 
-<img width="500" src="images/accuracy-after-augmentation.png">
+<img width="500" src="images/accuracy-after-augmentation.png" width = "1000">
 
 #### 4.8.3. Compute the test-data Accuracy:
 
@@ -1059,7 +1059,7 @@ plot_confusion_matrix<span style="color:#808030; ">(</span>cm<span style="color:
 </pre>
 
 
-<img width="500" src="images/confusion-matrix-after-augmentation.png">
+<img width="500" src="images/confusion-matrix-after-augmentation.png" width = "1000">
 
 
 
@@ -1100,7 +1100,7 @@ seed<span style="color:#808030; ">(</span>random_state_seed<span style="color:#8
     ax<span style="color:#808030; ">.</span>set_title<span style="color:#808030; ">(</span><span style="color:#0000e6; ">'Y = %s, $</span><span style="color:#0f69ff; ">\h</span><span style="color:#0000e6; ">at{Y}$ = %s'</span> <span style="color:#44aadd; ">%</span> <span style="color:#808030; ">(</span><span style="color:#808030; ">(</span>label<span style="color:#808030; ">)</span><span style="color:#808030; ">,</span> <span style="color:#808030; ">(</span>yhat<span style="color:#808030; ">)</span><span style="color:#808030; ">)</span><span style="color:#808030; ">,</span> size <span style="color:#808030; ">=</span> <span style="color:#008c00; ">8</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img width="500" src="images/25-misclassifications-after-augmentation.png">
+<img width="500" src="images/25-misclassifications-after-augmentation.png" width = "1000">
 
 ### 4.9. Part 9: Display a final message after successful execution completion
 
@@ -1150,17 +1150,17 @@ Program executed successfully on<span style="color:#808030; ">:</span> <span sty
 
 ### 4.7. References
 
-1. The CIFAR-10 dataset. Retrieved from: https://www.cs.toronto.edu/~kriz/cifar.html (April 6th, 2021). 
-2. Park Chansung. CIFAR-10 Image Classification in TensorFlow. Retrieved from: https://towardsdatascience.com/cifar-10-image-classification-in-tensorflow-5b501f7dc77c (April 6th, 2021).
-3. Jason Brownlee. How to Develop a CNN From Scratch for CIFAR-10 Photo Classification. Retrieved from: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification (April 6th, 2021).
-4. Tensorflow. Convolutional Neural Network (CNN). Retrieved from: https://www.tensorflow.org/tutorials/images/cnn (April 6th, 2021).
-5. Aarya Brahmane.  Deep Learning with CIFAR-10:  Image Classification using CNN. Retrieved from: https://towardsdatascience.com/ (April 6th, 2021).
-6. Abhijeet Kumar. Achieving 90% accuracy in Object Recognition Task on CIFAR- Dataset with Keras: Convolutional Neural Networks. Retrieved from: Retrieved from: https://appliedmachinelearning.blog/2018/03/24/achieving-90-accuracy-in-object-recognition-task-on-cifar-10-dataset-with-keras-convolutional-neural-networks/ (April 6th, 2021).
-7. Konstantinos Siaterlis. Convolutional NN with Keras Tensorflow on CIFAR-10 Dataset, Image Classification. Retrieved from: https://medium.com/@siakon/convolutional-nn-with-keras-tensorflow-on-cifar-10-dataset-image-classification-d3aad44691bd (April 6th, 2021).
-8. Mia Morton. Experimental Process: Completing a Convolutional Neural Network to Classify the CIFAR 10 Dataset. Retrieved from: https://medium.com/@704/experimental-process-in-completing-convolutional-neural-network-to-classify-the-cifar-10-dataset-8de699b82b8d (April 6th, 2021).
+1. The CIFAR-10 dataset. Retrieved from: https://www.cs.toronto.edu/~kriz/cifar.html. 
+2. Park Chansung. CIFAR-10 Image Classification in TensorFlow. Retrieved from: https://towardsdatascience.com/cifar-10-image-classification-in-tensorflow-5b501f7dc77c.
+3. Jason Brownlee. How to Develop a CNN From Scratch for CIFAR-10 Photo Classification. Retrieved from: https://machinelearningmastery.com/how-to-develop-a-cnn-from-scratch-for-cifar-10-photo-classification.
+4. Tensorflow. Convolutional Neural Network (CNN). Retrieved from: https://www.tensorflow.org/tutorials/images/cnn.
+5. Aarya Brahmane.  Deep Learning with CIFAR-10:  Image Classification using CNN. Retrieved from: https://towardsdatascience.com/.
+6. Abhijeet Kumar. Achieving 90% accuracy in Object Recognition Task on CIFAR- Dataset with Keras: Convolutional Neural Networks. Retrieved from: Retrieved from: https://appliedmachinelearning.blog/2018/03/24/achieving-90-accuracy-in-object-recognition-task-on-cifar-10-dataset-with-keras-convolutional-neural-networks/.
+7. Konstantinos Siaterlis. Convolutional NN with Keras Tensorflow on CIFAR-10 Dataset, Image Classification. Retrieved from: https://medium.com/@siakon/convolutional-nn-with-keras-tensorflow-on-cifar-10-dataset-image-classification-d3aad44691bd.
+8. Mia Morton. Experimental Process: Completing a Convolutional Neural Network to Classify the CIFAR 10 Dataset. Retrieved from: https://medium.com/@704/experimental-process-in-completing-convolutional-neural-network-to-classify-the-cifar-10-dataset-8de699b82b8d.
 9. Kaggle. CIFAR-10 - Object Recognition in Images
-Identify the subject of 60,000 labeled images. Retrieved from: https://www.kaggle.com/c/cifar-10/discussion/40237 (April 6th, 2021).
+Identify the subject of 60,000 labeled images. Retrieved from: https://www.kaggle.com/c/cifar-10/discussion/40237.
 10. Aarya Brahmane. Deep Learning with CIFAR-10. Retrieved from: https://towardsdatascience.com/deep-learning-with-cifar-10-image-classification-64ab92110d79 (April 6th, 2021).
-Tensorflow. Convolutional Neural Network (CNN). Retrieved from: https://www.tensorflow.org/tutorials/images/cnn (April 6th, 2021).
+Tensorflow. Convolutional Neural Network (CNN). Retrieved from: https://www.tensorflow.org/tutorials/images/cnn.
 
 
